@@ -1,0 +1,41 @@
+.publisher-card{
+    padding: 20px;
+    text-align: center;
+    background-color: #ecedee;
+    border: 2px solid rgb(201, 198, 198);
+    transition: all 0.2s ease-in;
+    cursor: pointer;
+    border-radius: 20px;
+}
+.publisher-card:hover{
+    transform: scale(.99);
+    box-shadow: 0 0 20px 0px rgba(143, 33, 33, 0.801);
+}
+.publisher-card span{
+    color: #ba2f58;
+    font-weight: bold;
+}
+
+.publisher-card img{
+margin-top: 10px;
+    width: 50%;
+    border-radius: 50%;
+}
+.btn-select{
+    margin-top: 30px;
+    margin-left: 20px;
+    cursor: pointer;
+    font-size: 20px;
+    background-color: #ba2f58 ;
+    color: white;
+    padding: 8px 20px;
+    border: none;
+    border: 2px solid #ba2f58;
+    border-radius: 20px;
+transition: all 0.3s ease-in;
+}
+.btn-select:hover{
+    background-color: white;
+    color: black;
+}
+ 
